@@ -13,6 +13,6 @@ import cn.itcast.springboot.entity.Notice;
  * @version 1.0
  */
 @Repository
-public interface NoticeDao extends JpaRepository<Notice, Long> {
+public interface NoticeDao extends JpaRepository<Notice,  Long> {
 
 }
